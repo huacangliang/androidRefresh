@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by youyunkeji on 16/10/14.
+ * Created by huacangliang on 16/10/14.
  */
 
 public class FixedRecycleView extends RecyclerView {

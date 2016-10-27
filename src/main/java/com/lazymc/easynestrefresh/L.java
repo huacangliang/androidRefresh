@@ -2,7 +2,10 @@ package com.lazymc.easynestrefresh;
 
 import android.util.Log;
 
-//Logcat统一管理类
+/**
+ * @author huacangliang
+ * Logcat统一管理类
+ */
 public class L
 {
 

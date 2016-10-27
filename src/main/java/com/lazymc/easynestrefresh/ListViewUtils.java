@@ -10,7 +10,7 @@ import android.widget.GridView;
 import android.widget.ListView;
 
 /**
- * Created by Administrator on 2016/1/8.
+ * Created by huacangliang on 2016/1/8.
  */
 public class ListViewUtils {
 

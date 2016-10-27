@@ -23,7 +23,7 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 
 /**
- * Created by loo on 2016/4/16.
+ * Created by huacangliang on 2016/4/16.
  */
 public class EasyNestScrollView extends LinearLayout implements EasyNestRefreshView.RefreshListener {
     private static final String TAG = "EasyNestScrollView";

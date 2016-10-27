@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.widget.ImageView;
 
 /**
- * Created by LongYu on 2016/5/21.
+ * Created by huacangliang on 2016/5/21.
  */
 public class NoRequestImageView extends ImageView {
     private boolean init;

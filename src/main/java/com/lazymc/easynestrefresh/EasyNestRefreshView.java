@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by longyu on 2016/4/18.
+ * Created by huacangliang on 2016/4/18.
  * 刷新控件，该控件主要用于包裹刷新指示器容器，要跟{@link EasyNestScrollView} 搭配使用
  */
 public class EasyNestRefreshView extends RelativeLayout implements EasyNestScrollCallback {

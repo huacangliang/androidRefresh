@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * Created by LongYu on 2016/5/31.
+ * Created by huacangliang on 2016/5/31.
  * 可监听滚动状态的scrollview
  * 使用NestedScrollView有个bug,滑动的时候内容的z轴会向上,造成不可预估的问题,
  * 可使用原生scrollview代替,但是因为原生的被第三方修改过,影响体验

@@ -1,5 +1,5 @@
 # androidRefresh
-<iframe width="854" height="480" src="https://youtu.be/VmXOvISqu6I" frameborder="0" allowfullscreen></iframe>
+
 该刷新框架可定制性超高，没有基本开发水平无法使用
 头部采用了view容器方式，具体内容自己决定，可将容器类view替换成你想要的任意view
 刷新框架回调的数据也很多，常用回调为：

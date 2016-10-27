@@ -1,6 +1,6 @@
 # androidRefresh
-[介绍视频](https://youtu.be/VmXOvISqu6I)
-
+[![IMAGE ALT TEXT HERE](https://i.ytimg.com/vi/VmXOvISqu6I/2.jpg?time=1477555299808)](https://youtu.be/VmXOvISqu6I)
+<iframe width="854" height="480" src="https://www.youtube.com/embed/VmXOvISqu6I" frameborder="0" allowfullscreen></iframe>
 该刷新框架可定制性超高，没有基本开发水平无法使用
 
 头部采用了view容器方式，具体内容自己决定，可将容器类view替换成你想要的任意view

@@ -1,4 +1,5 @@
 # androidRefresh
+[介绍视频](https://youtu.be/VmXOvISqu6I)
 
 该刷新框架可定制性超高，没有基本开发水平无法使用
 
@@ -63,3 +64,19 @@ scaleValue()滑动过程不断回调，传回当前滑动的距离比例，即�
                 root.doLoadMore();
             }
         });
+        
+        /**
+        恢复刷新前状态，也就是刷新完成，这个保证更新数据的时候不造成ui卡顿或其他异常
+        */
+        EasyNestRefreshView.onRefreshed(new EasyNestRefreshView.OnRefreshedListener() {
+                @Override
+                public void onRefreshed() {
+                  //在这里设置数据源
+                }
+            });
+            
+            
+        /**
+        恢复刷新前状态，也就是刷新完成，这个方法是不需要更新UI或没有刷新动作的时候调用的
+        */
+         EasyNestRefreshView.onRefreshed();

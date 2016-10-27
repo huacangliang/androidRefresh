@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.aduer.lblcus.common.widget.EasyNestView
+        android:id="@+id/en_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <include layout="@layout/refresh_comm_layout"/>
+
+        <com.aduer.lblcus.common.widget.EasyNestScrollView
+            android:id="@+id/ens_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:overScrollMode="never">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </com.aduer.lblcus.common.widget.EasyNestScrollView>
+    </com.aduer.lblcus.common.widget.EasyNestView>
+</LinearLayout>

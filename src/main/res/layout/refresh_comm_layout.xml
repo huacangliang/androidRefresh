@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <com.aduer.lblcus.common.widget.EasyNestRefreshView
+    <com.lazymc.easynestrefresh.EasyNestRefreshView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/en_rview"
         android:layout_width="match_parent"
@@ -17,14 +17,14 @@
             android:gravity="center|top"
             android:orientation="vertical">
 
-            <com.aduer.lblcus.common.widget.NoRequestImageView
+            <com.lazymc.easynestrefresh.NoRequestImageView
                 android:id="@+id/iv_refreshing_index"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:scaleType="fitXY"
                 />
 
-            <com.aduer.lblcus.common.widget.NoRequestImageView
+            <com.lazymc.easynestrefresh.NoRequestImageView
                 android:id="@+id/iv_refreshing_progress"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -32,4 +32,4 @@
                 android:visibility="invisible"/>
         </RelativeLayout>
 
-    </com.aduer.lblcus.common.widget.EasyNestRefreshView>
+    </com.lazymc.easynestrefresh.EasyNestRefreshView>

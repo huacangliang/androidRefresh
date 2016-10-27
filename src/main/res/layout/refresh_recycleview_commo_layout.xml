@@ -4,7 +4,7 @@
               android:layout_height="match_parent"
               android:orientation="vertical">
 
-    <com.aduer.lblcus.common.widget.EasyNestView
+    <com.lazymc.easynestrefresh.EasyNestView
         android:id="@+id/en_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -12,7 +12,7 @@
 
         <include layout="@layout/refresh_comm_layout"/>
 
-        <com.aduer.lblcus.common.widget.EasyNestScrollView
+        <com.lazymc.easynestrefresh.EasyNestScrollView
             android:id="@+id/ens_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -28,6 +28,6 @@
 
             </android.support.v7.widget.RecyclerView>
 
-        </com.aduer.lblcus.common.widget.EasyNestScrollView>
-    </com.aduer.lblcus.common.widget.EasyNestView>
+        </com.lazymc.easynestrefresh.EasyNestScrollView>
+    </com.lazymc.easynestrefresh.EasyNestView>
 </LinearLayout>

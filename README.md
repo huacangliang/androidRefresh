@@ -18,7 +18,7 @@ onOverlyRefreshHeight()手指下拉距离超出可刷新高度时，开发者可
 
 scaleValue()滑动过程不断回调，传回当前滑动的距离比例，即当前手指滑动距离/可刷新的高度 的关系
 
-刷新框架可用于listview（未测试）和recycleview，以及scrollview、nestScrollView
+刷新框架可用于listview（未测试）和recycleview，以及scrollview、nestScrollView,gridview原理上也能使用（未测试）
 
 使用方法：直接在xml中配置
 

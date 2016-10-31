@@ -4,7 +4,7 @@
 
 [![IMAGE ALT TEXT HERE](https://i.ytimg.com/vi/VmXOvISqu6I/2.jpg?time=1477555299808)](https://youtu.be/VmXOvISqu6I)
 
-该刷新框架可定制性超高，代码比较乱需要一定开发经验，多的不说，有时间再考虑精简代码吧
+该刷新框架可定制性高，需要一定开发经验
 
 头部采用了view容器方式，具体内容自己决定，可将容器里面的内容view替换成你想要的任意view
 

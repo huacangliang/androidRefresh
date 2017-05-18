@@ -1,9 +1,5 @@
 # androidRefresh
 
-下面是介绍视频，自备梯子
-
-[![IMAGE ALT TEXT HERE](https://i.ytimg.com/vi/VmXOvISqu6I/2.jpg?time=1477555299808)](https://youtu.be/VmXOvISqu6I)
-
 该刷新框架可定制性高，需要一定开发经验
 
 头部采用了view容器方式，具体内容自己决定，可将容器里面的内容view替换成你想要的任意view
